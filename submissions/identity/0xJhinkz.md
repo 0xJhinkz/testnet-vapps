@@ -4,7 +4,7 @@
 
 ```yaml
 github_username: "0xJhinkz"
-discord_id: "0xm3th"
+discord_id: "670563279164407808"
 timestamp: "2025-01-15"
 ```
 
