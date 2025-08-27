@@ -1,11 +1,11 @@
-# vApp Submission: Jhinkz vApp
+# vApp Submission: Queens vApp
 
 ## Verification
 
 ```yaml
 github_username: "0xJhinkz"
 discord_id: "670563279164407808"
-timestamp: "2025-01-15"
+timestamp: "2025-08-28"
 ```
 
 ## Developer
@@ -13,71 +13,74 @@ timestamp: "2025-01-15"
 * **Name**: Jhinkz
 * **GitHub**: [@0xJhinkz](https://github.com/0xJhinkz)
 * **Discord**: 0xm3th
-* **Experience**: Builder and open-source contributor in the Web3 space, focusing on blockchain infrastructure, smart contract development, and decentralized systems. My work emphasizes reliability, security, and creating accessible user experiences for dApp ecosystems.
+* **Experience**: Builder and open-source contributor in the Web3 space, focusing on blockchain infrastructure, smart contracts, and decentralized systems. My projects revolve around reliability, security, and building accessible dApp ecosystems. I’ve worked on EVM-based tooling, DeFi integrations, and infrastructure-level components that prioritize transparency and performance.
 
 ## Project
 
 ### Name & Category
 
-* **Project**: Jhinkz vApp
-* **Category**: identity
+* **Project**: Queens vApp
+* **Category**: Identity
 
 ### Description
 
-Jhinkz vApp is designed to simplify **decentralized identity management**. Today, users face fragmented identity systems, making it difficult to manage trust, privacy, and verification across multiple platforms. This vApp introduces a **self-sovereign identity framework** built on top of the Soundness Layer (SL), allowing users to create, verify, and manage their identity securely. By decentralizing verification, the project reduces reliance on centralized entities, enhances privacy, and streamlines onboarding across applications.
+Queens vApp addresses the **fragmentation of digital identity** across Web3 ecosystems. Users currently juggle multiple identities and verification methods that compromise privacy and trust. This vApp introduces a **self-sovereign identity layer** powered by the Soundness Layer (SL).
+
+With Queens vApp, users can securely **create, verify, and manage digital identities** without relying on centralized gatekeepers. It’s designed for cross-platform interoperability, privacy preservation, and developer-friendly integration into dApps.
 
 ### SL Integration
 
-The project will incorporate **Soundness Layer (SL)** to enable:
+The vApp integrates the **Soundness Layer** to enable:
 
-* **Proof-based identity verification** using zero-knowledge proofs
-* **Immutable record-keeping** to ensure transparent, tamper-resistant identity data
-* **Cross-dApp interoperability**, so users maintain one identity across different ecosystems
-* **Lightweight and efficient verification**, reducing costs for both users and developers
+* **Zero-knowledge proof-based verification**, giving users privacy-preserving trust guarantees
+* **Tamper-resistant record-keeping**, ensuring verifiable and immutable credential histories
+* **Cross-dApp interoperability**, allowing one portable identity across ecosystems
+* **Efficient verification flows**, lowering gas and operational costs
+
+---
 
 ## Technical
 
 ### Architecture
 
-The application will be structured as follows:
-
-* **Frontend**: User-facing dashboard for creating and managing decentralized identities
-* **Backend**: Verification engine and APIs for proof requests
-* **Soundness Layer integration**: Handles on-chain proof verification and consistency
-* **Storage**: Distributed storage (IPFS/WALRUS) for encrypted credentials
-
-### Stack
-
-* **Frontend**: React / Next.js
-* **Backend**: Node.js / Rust
-* **Blockchain**: Soundness Layer + EVM-based chain
-* **Storage**: WALRUS / IPFS
+* **Frontend**: React / Next.js for user identity dashboards
+* **Backend**: Node.js (API) + Rust (core verification engine)
+* **Blockchain**: Soundness Layer + EVM chain integration
+* **Storage**: IPFS / WALRUS for encrypted credential storage
 
 ### Features
 
-1. Decentralized identity creation and lifecycle management
-2. Interoperability with other dApps via SL-backed proofs
-3. Privacy-focused credential sharing with zero-knowledge proof support
+1. Decentralized identity creation & lifecycle management
+2. Cross-dApp identity verification backed by SL proofs
+3. Selective disclosure of credentials using zero-knowledge primitives
+
+---
 
 ## Timeline
 
-### PoC (2-4 weeks)
+### PoC (2–4 weeks)
 
-* [ ] Implement identity creation flow
-* [ ] Integrate Soundness Layer for identity proofs
-* [ ] Develop initial UI for wallet and identity management
+* [ ] Implement base identity creation flow
+* [ ] SL integration for proof requests
+* [ ] Minimal UI for wallet & ID setup
 
-### MVP (4-8 weeks)
+### MVP (4–8 weeks)
 
-* [ ] Full-featured dashboard with credential controls
-* [ ] Enable interoperability with multiple dApps
-* [ ] Production-ready deployment and user testing feedback loop
+* [ ] Full dashboard for identity/credential management
+* [ ] Cross-dApp interoperability demos
+* [ ] Deployment + community feedback cycle
+
+---
 
 ## Innovation
 
-Jhinkz vApp is built with the idea of **user-first digital identity**. Instead of relying on central intermediaries, it gives individuals full ownership and control over their identity while ensuring privacy and portability. With SL's cryptographic guarantees, the project makes decentralized identity practical, scalable, and easy to adopt for both users and developers.
+Queens vApp focuses on **user-first decentralized identity**. Instead of handing control to platforms, the vApp empowers individuals with portable, verifiable, and private credentials. By leveraging SL’s cryptographic guarantees, it makes decentralized identity **practical, scalable, and developer-friendly**.
+
+This aligns with my broader work on building **Web3 infrastructure and developer tools** — making ecosystems secure, modular, and open.
+
+---
 
 ## Contact
 
-Preferred: Discord **0xm3th**
-Progress updates will be shared via GitHub repository and community channels.
+* **Preferred**: Discord → **0xm3th**
+* Updates: GitHub repositories & community channels
